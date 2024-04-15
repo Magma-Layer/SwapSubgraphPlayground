@@ -82,7 +82,7 @@ export const getTransactionsTableData = (transactions: TransactionsType[]) => {
       transactions: (
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <Avatar
-            src={`https://raw.githubusercontent.com/devpavan04/assets/master/blockchains/ethereum/assets/${token0Address}/logo.png`}
+            src={`https://raw.githubusercontent.com/Magma-Layer/SwapSubgraphPlayground/main/public/tokens/${token0Address}/logo.png`}
           />
           <Spacer w={0.4} />
           {token0Symbol}
@@ -90,7 +90,7 @@ export const getTransactionsTableData = (transactions: TransactionsType[]) => {
           {type === 'Mint' ? 'and' : type === 'Swap' ? 'For' : type === 'Burn' ? 'And' : ''}
           <Spacer w={0.6} />
           <Avatar
-            src={`https://raw.githubusercontent.com/devpavan04/assets/master/blockchains/ethereum/assets/${token1Address}/logo.png`}
+            src={`https://raw.githubusercontent.com/Magma-Layer/SwapSubgraphPlayground/main/public/tokens/${token1Address}/logo.png`}
           />
           <Spacer w={0.4} />
           {token1Symbol}

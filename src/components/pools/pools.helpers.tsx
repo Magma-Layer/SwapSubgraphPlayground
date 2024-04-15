@@ -25,10 +25,10 @@ export const getPoolsTableData = (pools: PoolType[]) => {
       pool: (
         <>
           <Avatar
-            src={`https://raw.githubusercontent.com/devpavan04/assets/master/blockchains/ethereum/assets/${token0Address}/logo.png`}
+            src={`https://raw.githubusercontent.com/Magma-Layer/SwapSubgraphPlayground/main/public/tokens/${token0Address}/logo.png`}
           />
           <Avatar
-            src={`https://raw.githubusercontent.com/devpavan04/assets/master/blockchains/ethereum/assets/${token1Address}/logo.png`}
+            src={`https://raw.githubusercontent.com/Magma-Layer/SwapSubgraphPlayground/main/public/tokens/${token1Address}/logo.png`}
           />
           <Spacer />
           {pool.token0.symbol === 'WETH' ? 'ETH' : pool.token0.symbol === 'WBTC' ? 'BTC' : pool.token0.symbol}/

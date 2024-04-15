@@ -24,7 +24,7 @@ export const getTokensTableData = (tokens: TokenType[]) => {
       token: (
         <>
           <Avatar
-            src={`https://raw.githubusercontent.com/devpavan04/assets/master/blockchains/ethereum/assets/${tokenAddress}/logo.png`}
+            src={`https://raw.githubusercontent.com/Magma-Layer/SwapSubgraphPlayground/main/public/tokens/${tokenAddress}/logo.png`}
           />
           <Spacer />
           {token.name === 'Wrapped Ether' ? 'Ether' : token.name === 'Wrapped BTC' ? 'Bitcoin' : token.name}{' '}
